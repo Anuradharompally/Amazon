@@ -1,6 +1,6 @@
-.product_container {
+/* .product_container {
   display: flex;
-}
+} */
 .product {
   display: flex;
   flex-direction: column;
@@ -36,4 +36,9 @@
 }
 .product_rating {
   display: flex;
+}
+.product:hover {
+  -moz-box-shadow: 0 0 20px #ccc;
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
 }
